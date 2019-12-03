@@ -24,6 +24,29 @@
 .icon {
     width: 25px;
 }
+.icon-point {
+    position: absolute;
+    top: 235px;
+    right:205px;
+}
+.icon-point1,
+.icon-point2,
+.icon-point3  {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.icon-point1,
+.icon-point2 {
+    background-color: rgb(109, 107, 107);
+}
+.icon-point3 {
+    background-color: rgb(240, 240, 240);
+}
+
+
+
 
 .title-arrow {
     float: left;
