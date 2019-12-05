@@ -21,52 +21,51 @@
     background-color: RGB(50,57,74);
 }
 
-.icon {
-    width: 25px;
-}
-.icon-point {
-    position: absolute;
-    top: 235px;
-    right:205px;
-}
-.icon-point1,
-.icon-point2,
-.icon-point3  {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-}
-.icon-point1,
-.icon-point2 {
-    background-color: rgb(109, 107, 107);
-}
-.icon-point3 {
-    background-color: rgb(240, 240, 240);
-}
-
-
-
-
-.title-arrow {
-    float: left;
-    margin-left: 10px;
-    margin-top: 7px;
-
-}
-
-.title-text {
+.subtitle {
     display: inline-block;
     margin-left: 15px;
     font-size: 20px;
     color: white;
 }
 
-.title-shopping {
+.icon {
+    width: 25px;
+}
+
+.icon-arrow {
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.icon-shopping {
     float: right;
     margin-right: 10px;
     margin-top: 7px;
 }
+.icon-point {
+    position: absolute;
+    top: 235px;
+    right:205px;
+}
+
+.icon-point-gray,
+.icon-point-white {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.icon-point-gray {
+    background-color: rgb(109, 107, 107);
+}
+
+.icon-point-white {
+    background-color: rgb(240, 240, 240);
+}
+
+
 
 .image {
     width: 100%;
@@ -90,27 +89,25 @@
     margin-right: 10px;
 }
 
-.menu-list1 {
+.menu-left {
     float: left; 
     margin: 0 auto;
     width: 140px;
 }
 
-.menu-list2 {
+.menu-center{
     float: left;    
     margin: 0 auto;
     width: 140px;
 }
 
-.menu-list3 {
+.menu-right {
     float: left;    
     margin: 0 auto;
     width: 140px;
 }
 
-.menu-list1 li , 
-.menu-list2 li ,
-.menu-list3 li {
+.menu-list li {
     list-style: none;
     height: 35px;
     line-height: 35px;
