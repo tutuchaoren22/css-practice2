@@ -18,7 +18,7 @@
     width: 100%;
     height: 60px;
     line-height: 60px;
-    background-color: RGB(50,57,74);
+    background-color: RGB(50, 57, 74);
 }
 
 .subtitle {
@@ -43,10 +43,11 @@
     margin-right: 10px;
     margin-top: 7px;
 }
+
 .icon-point {
     position: absolute;
     top: 235px;
-    right:205px;
+    right: 205px;
 }
 
 .icon-point-gray,
@@ -65,15 +66,12 @@
     background-color: rgb(240, 240, 240);
 }
 
-
-
 .image {
     width: 100%;
     height: 200px;
-    background-image: url(../static/title.jpg);
+    background-image: url(../static/slide-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .menu {
@@ -90,19 +88,19 @@
 }
 
 .menu-left {
-    float: left; 
+    float: left;
     margin: 0 auto;
     width: 140px;
 }
 
-.menu-center{
-    float: left;    
+.menu-center {
+    float: left;
     margin: 0 auto;
     width: 140px;
 }
 
 .menu-right {
-    float: left;    
+    float: left;
     margin: 0 auto;
     width: 140px;
 }
@@ -120,17 +118,17 @@
 
 .menu a {
     -webkit-tap-highlight-color: transparent;
-    color: blakk;
+    color: black;
     text-decoration: none;
 }
 
 .menu a:visited {
-    color:black;
+    color: black;
     text-decoration: none;
 }
 
 .menu a:hover {
-    color:black;
+    color: black;
     text-decoration: none;
 }
 
@@ -138,8 +136,8 @@
     background-color: #ec4a55;
 }
 
-.menu li:hover a{
-    color:white;
+.menu li:hover a {
+    color: white;
 }
 
 .article {
@@ -180,10 +178,11 @@
     font-size: 20px;
     margin-top: 8px;
 }
+
 .artical-text {
     margin-top: 8px;
     font-size: 15px;
-    color:gray;
+    color: gray;
 }
 
 .artical-shop {
